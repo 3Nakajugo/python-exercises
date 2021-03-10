@@ -32,6 +32,9 @@ def number_factorial(number):
 number = int(input("Please input any number:"))
 print(number_factorial(number))
 
+"""
+Qns. 3
+"""
 # With a given integral number n, write a program to generate a dictionary that contains (i, i*i) 
 # such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
 # Suppose the following input is supplied to the program:
@@ -50,6 +53,9 @@ def generate_dict(number):
 number = int(input("Please input any number:"))
 print(generate_dict(number))
 
+"""
+Qns. 4
+"""
 # Write a program which accepts a sequence of comma-separated numbers
 #  from console and generate a list and a tuple which contains every number.
 # Suppose the following input is supplied to the program:
@@ -67,6 +73,9 @@ def turn_into_list(sequence):
 sequence = input("Please input any number:")
 turn_into_list(sequence)
 
+"""
+Qns. 5
+"""
 # Define a class which has at least two methods:
 # getString: to get a string from console input
 # printString: to print the string in upper case.
@@ -88,6 +97,8 @@ class GetString():
 string = GetString()
 string.get_string()
 string.print_string()
+
+
 
 
 
